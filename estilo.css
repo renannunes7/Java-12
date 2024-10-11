@@ -1,0 +1,54 @@
+/* Resetando margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    line-height: 1.6; /* Altura da linha para melhor legibilidade */
+    background-color: #f4f4f4; /* Cor de fundo suave */
+    color: #333; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilo do título principal */
+h1 {
+    color: #4CAF50; /* Cor verde para o título */
+    text-align: center; /* Centraliza o título */
+}
+
+/* Estilo dos parágrafos */
+p {
+    margin-bottom: 20px; /* Espaçamento entre os parágrafos */
+    font-size: 18px; /* Tamanho da fonte dos parágrafos */
+}
+
+/* Estilo para links */
+a {
+    color: #4CAF50; /* Cor verde para links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+a:hover {
+    text-decoration: underline; /* Sublinha os links ao passar o mouse */
+}
+
+/* Botão estilizado */
+button {
+    display: block; /* Exibe o botão como um bloco */
+    width: 200px; /* Largura do botão */
+    padding: 10px; /* Espaçamento interno do botão */
+    margin: 20px auto; /* Centraliza o botão horizontalmente */
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove a borda do botão */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+}
+
+button:hover {
+    background-color: #45a049; /* Cor do botão ao passar o mouse */
+}
